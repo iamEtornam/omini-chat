@@ -1,0 +1,59 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_gemma (0.11.4):
+    - Flutter
+    - MediaPipeTasksGenAI (= 0.10.24)
+    - MediaPipeTasksGenAIC (= 0.10.24)
+    - TensorFlowLiteC (= 0.0.1-nightly.20250619)
+    - TensorFlowLiteSelectTfOps (= 0.0.1-nightly.20250619)
+    - TensorFlowLiteSwift (= 0.0.1-nightly.20250619)
+  - large_file_handler (0.0.1):
+    - Flutter
+  - MediaPipeTasksGenAI (0.10.24):
+    - MediaPipeTasksGenAIC (= 0.10.24)
+  - MediaPipeTasksGenAIC (0.10.24)
+  - TensorFlowLiteC (0.0.1-nightly.20250619):
+    - TensorFlowLiteC/Core (= 0.0.1-nightly.20250619)
+  - TensorFlowLiteC/Core (0.0.1-nightly.20250619)
+  - TensorFlowLiteSelectTfOps (0.0.1-nightly.20250619)
+  - TensorFlowLiteSwift (0.0.1-nightly.20250619):
+    - TensorFlowLiteSwift/Core (= 0.0.1-nightly.20250619)
+  - TensorFlowLiteSwift/Core (0.0.1-nightly.20250619):
+    - TensorFlowLiteC (= 0.0.1-nightly.20250619)
+    - TensorFlowLiteSwift/Privacy (= 0.0.1-nightly.20250619)
+  - TensorFlowLiteSwift/Privacy (0.0.1-nightly.20250619)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_gemma (from `.symlinks/plugins/flutter_gemma/ios`)
+  - large_file_handler (from `.symlinks/plugins/large_file_handler/ios`)
+
+SPEC REPOS:
+  trunk:
+    - MediaPipeTasksGenAI
+    - MediaPipeTasksGenAIC
+    - TensorFlowLiteC
+    - TensorFlowLiteSelectTfOps
+    - TensorFlowLiteSwift
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_gemma:
+    :path: ".symlinks/plugins/flutter_gemma/ios"
+  large_file_handler:
+    :path: ".symlinks/plugins/large_file_handler/ios"
+
+SPEC CHECKSUMS:
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  flutter_gemma: 4136c47b120fa71362264f6562879d377e937e7a
+  large_file_handler: e3686e246052b0f03955789d3a04604574f80afe
+  MediaPipeTasksGenAI: 076ba7032a6e9da16db9c7cf0c3b67c751c18bc1
+  MediaPipeTasksGenAIC: ec35d9f431f6a6b651a0bc9f67a4ed149ffa575c
+  TensorFlowLiteC: 215ef57653dd0fa09a474e7d94d79ae64a870b28
+  TensorFlowLiteSelectTfOps: c71d7dcd063f5d66ae1b9a85cc5aa993f824eff9
+  TensorFlowLiteSwift: 6de8da348de331778167a0f751ad74c41d8b0554
+
+PODFILE CHECKSUM: 4f4184effa64a2cb4b108ae5ac7da943acf1fb56
+
+COCOAPODS: 1.16.2
