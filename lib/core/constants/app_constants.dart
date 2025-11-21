@@ -9,7 +9,7 @@ class AppConstants {
 
   // Model names
   static const String defaultModelName = 'Gemma 3 1B';
-  static const String modelFileName = 'gemma3-1B-it-int4.task';
+  static const String modelFileName = 'gemma3-270m-it-q8.task';
 
   // Storage keys
   static const String chatHistoryKey = 'chat_history';

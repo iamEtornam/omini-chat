@@ -46,8 +46,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
-  flutter_gemma: 4136c47b120fa71362264f6562879d377e937e7a
-  large_file_handler: e3686e246052b0f03955789d3a04604574f80afe
+  flutter_gemma: 80bcb47adf972fa3d93c8aaea2b936eaf6bc0845
+  large_file_handler: b37481e9b4972562ffcdc8f75700f47cd592bcec
   MediaPipeTasksGenAI: 076ba7032a6e9da16db9c7cf0c3b67c751c18bc1
   MediaPipeTasksGenAIC: ec35d9f431f6a6b651a0bc9f67a4ed149ffa575c
   TensorFlowLiteC: 215ef57653dd0fa09a474e7d94d79ae64a870b28

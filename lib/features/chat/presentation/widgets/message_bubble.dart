@@ -109,6 +109,9 @@ class MessageBubble extends StatelessWidget {
         ? theme.colorScheme.onPrimary
         : theme.colorScheme.onSurface;
 
+    // Replace literal \n with actual newlines
+    final displayContent = message.content.replaceAll(r'\n', '\n');
+
     if (message.status == MessageStatus.error) {
       return Row(
         mainAxisSize: MainAxisSize.min,
@@ -117,7 +120,7 @@ class MessageBubble extends StatelessWidget {
           const SizedBox(width: 8),
           Flexible(
             child: Text(
-              message.content,
+              displayContent,
               style: theme.textTheme.bodyMedium?.copyWith(
                 color: theme.colorScheme.error,
               ),
@@ -128,7 +131,7 @@ class MessageBubble extends StatelessWidget {
     }
 
     return SelectableText(
-      message.content,
+      displayContent,
       style: theme.textTheme.bodyMedium?.copyWith(color: textColor),
     );
   }
